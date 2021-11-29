@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>Personal Portfolio Website design</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="toggle" onclick="toggleMenu();"></div>
+
+  <section class="banner" id="home">
+
+    <div class="imgSidebar">
+      <img src="bg.jpg">
+    </div>
+    <div class="contentBx">
+      <h5 class="LogoText">My Portfolio</h5>
+      <div>
+        <h4><span>Hello</span> My name is</h4>
+        <h2>Phonthat Saetang</h2>
+        <h4>I want to be a Computer Science Student.</h4>
+        <p>สวัสดีครับ ผมชื่อนายพลทัต แซ่ตั้ง ปัจจุบันอายุ 18 ปี กำลังศึกษาอยู่ชั้นมัธยมศึกษาปีที่ 6 
+            แผนการเรียนศิลป์-คำนวณ โรงเรียนเบญจมราชรังสฤษฎิ์ จังหวัดฉะเชิงเทรา ผมมีความเชื่อ
+            ที่หนักแน่นว่าเทคโนโลยีมันเจ๋งมาก ๆ ด้วยความเชื่อที่ผมมีมันจะเปลี่ยนเป็นโอกาสและประตูใน
+            “การเดินทางในอนาคต” ที่จุดประกายไฟในตัวผม นั่นเป็นเหตุผลที่ผมเลือกที่จะให้ความสนใจ
+            เกี่ยวกับคณะวิทยาศาสตร์และเทคโนโลยี สาขาวิชาวิทยาการคอมพิวเตอร์.</p>
+        <a href="#" class="btn">About me</a>
+      </div>
+      <ul class="sci">
+        <li><a href="#"><img src="Line.jpg"></a></li>
+        <li><a href="#"><img src="gmail.jpg"></a></li>
+        <li><a href="#"><img src="Tel.jpg"></a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+      <div class="title white">
+          <h2>About Me</h2>
+          <p>ทำไมถึงอยากเรียนสาขานี้?</p>
+      </div>
+      <div class="content">
+          <div class="textBx">
+              <p>เหตุผลที่เลือกเรียนคณะวิทยาศาสตร์และเทคโนโลยีสาขาวิชาวิทยาการคอมพิวเตอร์
+                นั้นเป็นเพราะ</p>
+                <p>ผมได้เริ่มเรียนการเขียนโค้ดเมื่อตอนม.4 ทำให้ผมมีความเข้าใจตนเอง
+                มากขึ้นได้รู้ว่าชอบอะไร อยากทำอาชีพอะไรต่อในอนาคต หลังจากที่ได้เรียนรู้การเขียนโค้ด
+                พื้นฐานผมก็อยากศึกษาต่อให้มากกว่านี้และได้เลือกที่จะใช้เวลาไปกับการศึกษาใน Youtube
+                สิ่งที่ผมสนใจก็คือ HTML หรือเรียกว่าการเขียนเว็บไซต์ เริ่มจากการทำความเข้าใจคำสั่ง
+                และนำไปเขียนได้จริง นั่นทำให้ผมรู้สึกชอบและหลงใหลในการเขียนโค้ด เพราะรู้สึกเพลิดเพลิน
+                ไม่เครียดจนเกินไป ผมเริ่มจริงจังและทุ่มเวลาให้กับการเขียนโปรแกรมจนกว่าจะมีความชำนาญ
+                ผมจึงตั้งเป้าหมายที่จะเข้าศึกษาต่อในคณะวิทยาศาสตร์และเทคโนโลยีเพื่อที่จะได้เรียนรู้และนำ
+                เทคนิคไปใช้ให้เกิดประสิทธิภาพมากที่สุด ที่กล่าวมาผมมั่นใจเป็นอย่างมาก ว่าคณะวิทยาศาสตร์
+                และเทคโนโลยี สาขาวิชาวิทยาการคอมพิวเตอร์นั้นเป็นคณะที่ตอบโจทย์ของผมที่สุดและคณะนี้
+                จะเป็น “การเดินทางในอนาคต” ที่จะทำให้ผมประสบความสำเร็จในสายงานอาชีพที่ผมเลือกใน
+                อนาคตอีกด้วย.</p>
+                <p>สิ่งที่คาดหวังจากการเข้าศึกษาต่อคณะวิทยาศาสตร์และเทคโนโลยี</p>
+                    <p>ในห่วงแห่งการศึกษา ผมคาดหวังว่าสิ่งที่ผมได้เรียนรู้จากรั้วมหาวิทยาลัยนั้นจะสามารถทำให้ผม
+                    รู้จักตนเองให้มากกว่านี้และพัฒนาความสามารถและเทคนิคให้ไกลกว่าที่เคยเป็น ประสบการณ์
+                    มากมายและล้ำค่าที่ผมได้เรียนรู้ตลอดการศึกษา ผมจะนำความรู้และประสบการณ์ที่ล้ำค่านั้น
+                    ไปใช้เพื่อขับเคลื่อนตัวผมเองให้พัฒนาจนชำนาญและประสบความสำเร็จในชีวิต
+                    สุดท้ายแล้วสิ่งที่ผมมองหาก็คือความสุขของชีวิตในการทำอะไรสักอย่างที่ผมชอบ
+                    ผมจึงเลือกที่จะเดินบนเส้นทางของคำว่าเทคโนโลยีครับ.</p>
+          </div>
+          <div class="imgBx">
+              <img src="bg1.jpg">
+          </div>
+      </div>
+  </section>
+
+  <section class="Languages" id="Languages">
+    <div class="title">
+        <h2>Coding Languages</h2>
+        <p>ภาษาที่ผมได้เรียนรู้จากโซเชียลมีเดียต่างๆและได้นำภาษาเหล่านี้มาทดลองเขียน
+            โดยสิ่งที่ผมถนัดที่สุดคือ HTML และ CSS เพราะได้ใช้เขียนเว็บไซต์และได้
+            ทำความคุ้นชินกับคำสั่งต่างๆ  </p>
+    </div>
+    <div class="content">
+        <div class="servicesBx">
+            <img src="icon1.png">
+            <h2>HTML</h2>
+        </div>
+        <div class="servicesBx">
+            <img src="icon2.png">
+            <h2>CSS</h2>
+        </div>
+        <div class="servicesBx">
+            <img src="icon3.png">
+            <h2>PYTHON</h2>
+        </div>
+    </div>
+  </section>
+
+  <section class="work" id="work">
+    <div class="title">
+        <h2>Recent Work</h2>
+        <p>หลังจากที่ได้ศึกษาการเขียนโปรแกรมโดยส่วนใหญ่ผมจะใช้ HTML และ CSS เพราะรู้สึกว่า
+            เข้าใจได้ง่ายกว่าและรู้สึกสนุกเวลาที่ได้ตกแต่งเว็บไซต์ครับ </p>
+    </div> 
+    <div class="content">
+        <div class="workBx">
+            <div class="imgBx">
+                <img src="img1.jpg">
+            </div>
+            <div class="textBx">
+              <h3>Parallax Text Scrolling Effect on Mousemove </h3>
+            </div>
+        </div>
+        <div class="workBx">
+            <div class="imgBx">
+                <img src="img2.jpg">
+            </div>
+            <div class="textBx">
+              <h3>CSS Responsive Card Hover Effects</h3>
+            </div>
+        </div>
+        <div class="workBx">
+            <div class="imgBx">
+                <img src="img3.jpg">
+            </div>
+            <div class="textBx">
+              <h3>Responsive Personal Portfolio</h3>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <div class="sidebar">
+    <ul class="meunu">
+      <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+      <li><a href="#about" onclick="toggleMenu();">About</a></li>
+      <li><a href="#Languages" onclick="toggleMenu();">Languages</a></li>
+      <li><a href="#work" onclick="toggleMenu();">Work</a></li>
+    </ul>
+  </div> 
+    
+    <script>
+        function toggleMenu(){
+            const menuToggle = document.querySelector('.toggle');
+            const sidebar = document.querySelector('.sidebar');
+            menuToggle.classList.toggle('active');
+            sidebar.classList.toggle('active');
+        }
+    </script>
+</body>  
+</html> 
